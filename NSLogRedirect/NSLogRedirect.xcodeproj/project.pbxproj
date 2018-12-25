@@ -14,6 +14,7 @@
 		E86382E121D2776000E782DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86382DF21D2776000E782DF /* LaunchScreen.storyboard */; };
 		E86382E421D2776000E782DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E86382E321D2776000E782DF /* main.m */; };
 		E86382ED21D277A700E782DF /* SIFileMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = E86382EC21D277A700E782DF /* SIFileMonitor.m */; };
+		E86382F321D2803C00E782DF /* SILogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E86382F221D2803C00E782DF /* SILogFileManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		E86382E321D2776000E782DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E86382EB21D277A700E782DF /* SIFileMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SIFileMonitor.h; sourceTree = "<group>"; };
 		E86382EC21D277A700E782DF /* SIFileMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIFileMonitor.m; sourceTree = "<group>"; };
+		E86382F121D2803C00E782DF /* SILogFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SILogFileManager.h; sourceTree = "<group>"; };
+		E86382F221D2803C00E782DF /* SILogFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SILogFileManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				E86382EB21D277A700E782DF /* SIFileMonitor.h */,
 				E86382EC21D277A700E782DF /* SIFileMonitor.m */,
+				E86382F121D2803C00E782DF /* SILogFileManager.h */,
+				E86382F221D2803C00E782DF /* SILogFileManager.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86382F321D2803C00E782DF /* SILogFileManager.m in Sources */,
 				E86382D921D2775F00E782DF /* ViewController.m in Sources */,
 				E86382E421D2776000E782DF /* main.m in Sources */,
 				E86382ED21D277A700E782DF /* SIFileMonitor.m in Sources */,
