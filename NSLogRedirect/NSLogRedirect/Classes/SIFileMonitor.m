@@ -49,6 +49,7 @@
         unsigned long eventTypes = dispatch_source_get_data(strongSelf->_source);
         [strongSelf handleEvents:eventTypes];
     });
+    dispatch_resume(_source);
 }
 
 - (void)stopMonitor {

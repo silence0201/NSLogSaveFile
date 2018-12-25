@@ -48,7 +48,7 @@
     [@"" writeToFile:self.filePath atomically:NO encoding:NSUTF8StringEncoding error:nil];
 }
 
-- (void)monitorLog:(ChangeAction)changeAction {
+- (void)startMonitorLog:(ChangeAction)changeAction {
     self.monitor = [SIFileMonitor monitorForFile:self.filePath changeAction:^(FileChangeType type) {
         if (changeAction) {
             changeAction(type);

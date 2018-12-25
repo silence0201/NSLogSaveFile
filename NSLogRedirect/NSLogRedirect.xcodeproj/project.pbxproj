@@ -15,6 +15,7 @@
 		E86382E421D2776000E782DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E86382E321D2776000E782DF /* main.m */; };
 		E86382ED21D277A700E782DF /* SIFileMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = E86382EC21D277A700E782DF /* SIFileMonitor.m */; };
 		E86382F321D2803C00E782DF /* SILogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E86382F221D2803C00E782DF /* SILogFileManager.m */; };
+		E86382F621D283E200E782DF /* SILogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86382F521D283E200E782DF /* SILogViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		E86382EC21D277A700E782DF /* SIFileMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SIFileMonitor.m; sourceTree = "<group>"; };
 		E86382F121D2803C00E782DF /* SILogFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SILogFileManager.h; sourceTree = "<group>"; };
 		E86382F221D2803C00E782DF /* SILogFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SILogFileManager.m; sourceTree = "<group>"; };
+		E86382F421D283E200E782DF /* SILogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SILogViewController.h; sourceTree = "<group>"; };
+		E86382F521D283E200E782DF /* SILogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SILogViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				E86382EC21D277A700E782DF /* SIFileMonitor.m */,
 				E86382F121D2803C00E782DF /* SILogFileManager.h */,
 				E86382F221D2803C00E782DF /* SILogFileManager.m */,
+				E86382F421D283E200E782DF /* SILogViewController.h */,
+				E86382F521D283E200E782DF /* SILogViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E86382F321D2803C00E782DF /* SILogFileManager.m in Sources */,
+				E86382F621D283E200E782DF /* SILogViewController.m in Sources */,
 				E86382D921D2775F00E782DF /* ViewController.m in Sources */,
 				E86382E421D2776000E782DF /* main.m in Sources */,
 				E86382ED21D277A700E782DF /* SIFileMonitor.m in Sources */,
